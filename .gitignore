@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+
+# IDE specific
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/ 
