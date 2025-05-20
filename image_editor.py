@@ -3,7 +3,6 @@ from tkinter import filedialog, messagebox
 from PIL import Image, ImageTk
 import numpy as np
 from numpy.lib.stride_tricks import as_strided
-import math
 
 # Manual convolution
 def _manual_convolve(image_channel, kernel):
@@ -905,5 +904,3 @@ def _apply_edge_detection(image):
 if __name__ == "__main__":
     app = ImageEditorApp()
     app.mainloop()
-
-# pyinstaller --noconfirm --onedir --noconsole "C:/path/to/python/file/python_file.py"
