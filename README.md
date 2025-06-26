@@ -57,7 +57,7 @@ The main window will appear, allowing you to load an image and begin editing.
 
 This project was intentionally built to demonstrate core image processing concepts.
 
-*   **Professional Package Structure:** The code is organized into a clean and maintainable package structure (`core`), separating UI, image operations, and utilities. This makes the project easy to understand, test, and extend.
+*   **Package Structure:** The code is organized into a clean and maintainable package structure (`core`), separating UI, image operations, and utilities. This makes the project easy to understand, test, and extend.
 
 *   **Manual Implementations:** Instead of relying solely on one-line library functions, key features are built from scratch:
     1.  **Convolution Engine:** Filters like Blur and Sharpen use a manually implemented 2D convolution function. This involves generating a specific kernel (e.g., a Gaussian kernel) and sliding it across the image's pixel data to compute the new, filtered values.
